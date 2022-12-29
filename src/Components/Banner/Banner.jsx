@@ -17,7 +17,7 @@ const Banner = () => {
 					</p>
 					<div className="px-10 pb-10">
 						<button
-							class=" text-xl text-white ml-10 py-4 px-12  bg-[#0082FF] hover:bg-[#0168c8] focus:ring-[#4ea4f4] focus:ring-offset-[#0082FF]   transition ease-in duration-200 text-center  font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full"
+							className=" text-xl text-white ml-10 py-4 px-12  bg-[#0082FF] hover:bg-[#0168c8] focus:ring-[#4ea4f4] focus:ring-offset-[#0082FF]   transition ease-in duration-200 text-center  font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full"
 							aria-label="Sign up"
 							title="Sign up">
 							Sign Up Now
@@ -29,7 +29,7 @@ const Banner = () => {
 				</div>
 			</div>
 
-			<div className='mt-24 flex justify-end my-10'>
+			<div className='mt-24 flex justify-end mb-10'>
 				<img src={bannerLogo} alt="" />
 			</div>
 		</div>
