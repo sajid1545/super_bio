@@ -1,4 +1,5 @@
 import './App.css';
+import About from './Components/About/About';
 import Banner from './Components/Banner/Banner';
 import Navbar from './Components/Navbar/Navbar';
 import SecondBanner from './Components/SecondBanner/SecondBanner';
@@ -11,6 +12,7 @@ function App() {
 			<Banner />
 			<SecondBanner />
 			<UseIt />
+			<About />
 		</div>
 	);
 }
