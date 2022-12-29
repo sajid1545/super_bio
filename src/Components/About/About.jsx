@@ -3,10 +3,10 @@ import React from 'react';
 const About = () => {
 	return (
 		<div className="">
-			<div className="w-[85%] mx-auto bg-[#212F39] p-16  rounded-3xl">
+			<div className="w-[85%] mx-auto bg-[#212F39] p-16  rounded-3xl relative mb-80">
 				<h1 className="text-[40px] font-bold">About</h1>
 
-				<div className="grid grid-cols-3 absolute gap-10 w-[80%] mt-5 mx-auto">
+				<div className="grid grid-cols-3 absolute gap-40 w-[80%] mt-5 mx-auto">
 					<div className="bg-[#0F1C26] rounded-3xl p-5 w-[350px] ">
 						<h1 className="text-4xl mb-5">Customize your Link</h1>
 						<p className="font-bold text-[#dddddd]">

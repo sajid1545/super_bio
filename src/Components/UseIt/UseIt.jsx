@@ -8,7 +8,7 @@ const UseIt = () => {
 				Take your Superbio link wherever your audience is, <br /> to help them to discover all your
 				important content.
 			</p>
-			<button className=" text-xl text-white  py-4 px-8  bg-[#0082ff] hover:bg-[#0168c8] focus:ring-[#4ea4f4] focus:ring-offset-[#0082FF]   transition ease-in duration-200 text-center  font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full">
+			<button className=" text-xl text-white  py-3 px-12  bg-[#0082ff] hover:bg-[#0168c8] focus:ring-[#4ea4f4] focus:ring-offset-[#0082FF]   transition ease-in duration-200 text-center  font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full">
 				Sign Up Now
 			</button>
 		</div>
