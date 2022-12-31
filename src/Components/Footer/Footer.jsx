@@ -1,10 +1,10 @@
 import React from 'react';
-import { AiFillYoutube, AiOutlineInstagram } from 'react-icons/ai';
+import { AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<div className="w-[85%] mx-auto bg-[#212F39] p-10 rounded-3xl relative mb-40">
+		<div className="lg:w-[85%] mx-auto bg-[#212F39] p-10 rounded-3xl relative mb-40">
 			<footer>
 				<div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8 relative ">
 					<div className="grid grid-cols-1 gap-8  sm:grid-cols-2 lg:grid-cols-4 ">
@@ -91,18 +91,19 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="bg-[#0F1C26] p-10 flex justify-evenly gap-16 items-center rounded-3xl absolute w-[93%] right-[45px]">
+				<div className="bg-[#0F1C26] p-10 flex flex-col sm:flex-row justify-evenly gap-16 items-center rounded-3xl sm:absolute lg:w-[93%] sm:right-[45px]">
 					<div>
-						<h3 className="text-2xl font-bold">Mobile: 12345678</h3>
+						<h3 className="text-2xl font-bold text-center sm:text-left">Mobile: 12345678</h3>
 					</div>
 					<div>
-						<h3 className="text-2xl font-bold">Email: hello@superBio</h3>
+						<h3 className="text-2xl font-bold text-center sm:text-left">Email: hello@superBio</h3>
 					</div>
 
 					<div>
 						<div className="mt-5 flex w-[80%] mx-auto justify-around items-center gap-4">
-							<AiFillYoutube className=" w-10 h-7 cursor-pointer hover:scale-110 duration-500" />
-							<FaLinkedinIn className=" w-10 h-7 cursor-pointer hover:scale-110 duration-500" />
+							<AiFillYoutube className=" w-10 h-7 cursor-pointer hover:scale-125 duration-500 hover:text-red-700" />
+							<FaLinkedinIn className=" w-10 h-7 cursor-pointer hover:scale-125 duration-500 hover:text-blue-700" />
+							<AiOutlineTwitter className=" w-10 h-7 cursor-pointer hover:scale-125 duration-500 hover:text-blue-400" />
 						</div>
 					</div>
 

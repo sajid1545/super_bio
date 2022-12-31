@@ -3,10 +3,10 @@ import free from '../../assets/images/free.png';
 
 const TryForFree = () => {
 	return (
-		<div className="w-[85%] mx-auto bg-[#212F39] py-16 px-12 rounded-3xl my-20 flex items-center ">
+		<div className="lg:w-[85%] mx-auto bg-[#212F39] py-16 px-12 rounded-3xl my-20 flex items-center justify-center flex-col sm:flex-row">
 			<img src={free} alt="" className="cursor-pointer  hover:scale-105 ease-in duration-500" />
-			<div className="ml-40">
-				<h1 className="text-[40px] mb-5 font-bold">Try it for free</h1>
+			<div className="sm:ml-40">
+				<h1 className="text-[40px] mb-5 mt-10 sm:mt-0 font-bold">Try it for free</h1>
 				<p className="text-[#dddddd] font-bold lg:w-[80%] text-xl">
 					Create your own meaningful link in bio today for free. Join for free!
 				</p>

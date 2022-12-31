@@ -2,7 +2,7 @@ import React from 'react';
 
 const UseIt = () => {
 	return (
-		<div className="w-[85%] mx-auto bg-[#212F39] pl-14 pt-16 pb-10 rounded-3xl my-20 mt-[150px] mb-[80px]">
+		<div className="lg:w-[85%] mx-auto bg-[#212F39] pl-14 pt-16 pb-10 rounded-3xl my-20 mt-[150px] mb-[80px]">
 			<h1 className="text-5xl mb-9 font-bold">Use it anywhere</h1>
 			<p className="mb-10 text-[#dddddd] text-[20px]">
 				Take your Superbio link wherever your audience is, <br /> to help them to discover all your
